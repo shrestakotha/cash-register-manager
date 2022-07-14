@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+</head>
+
+<body>
+    
+        <div class="container">
+        <h1 class="head">Cash Register Manager</h1>
+        <p>Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+
+        <label for="bill-amount"><strong>Bill Amount</strong></label>
+        <input id="bill-amount" type="number" placeholder="Enter the bill amount here">
+
+        <label for="cash-given"><strong>Cash Given</strong></label>
+        <input type="number" id="cash-given" placeholder="Enter the cash given here">
+        <li class="social">
+        <button id="check-button"><strong>Check</strong></button>
+        
+        <button id="reset-button"><strong>Reset</strong></button>
+    </li>
+
+        <p id="error-msg"></p>
+
+        
+            
+        <table class="table">
+            <caption><strong>Return Change</strong></caption>
+            <tr id="tr1">
+                <th>Number of Notes</th>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+                <td class="notes"></td>
+            </tr>
+            <tr id="tr2">
+                <th>Notes Avaiable</td>
+                <td id="note">2000</td>
+                <td id="note">500</td>
+                <td id="note">100</td>
+                <td id="note">20</td>
+                <td id="note">10</td>
+                <td id="note">5</td>
+                <td id="note">1</td>
+                    
+            </tr>
+        </table>
+    
+    
+    
+    <footer id="footer">
+        <ul id="list">
+            <li class="social">
+                <a class="links" href="https://github.com/shrestakotha" target="_blank">
+                    <ion-icon name="logo-github" class="ionicons"></ion-icon>
+                </a>
+            </li>
+            <li class="social">
+                <a class="links" href="https://www.linkedin.com/in/kotha-shresta-230243236" target="_blank">
+                    <ion-icon name="logo-linkedin" class="ionicons"></ion-icon>
+                </a>
+            </li>
+            <li class="social">
+                <a class="links" href="" target="_blank">
+                    <ion-icon name="logo-instagram" class="ionicons"></ion-icon>
+                </a>
+            </li>
+        </ul>
+    
+    </footer>
+</div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+
+</html>
