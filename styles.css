@@ -48,3 +48,36 @@ caption{
 th,#note{
     background-color: hsl(266, 55%, 70%);
 }
+#foot{
+    background-color: blueviolet;
+    margin: auto;
+    text-align: center;
+    
+}
+.fa:hover {
+    opacity: 0.9;
+}
+.fa-linkedin {
+
+    color: blueviolet;
+    margin: auto;
+}
+
+.fa-github{
+    
+    color:blueviolet;
+    margin: auto;
+}
+
+.fa-instagram {
+    
+    color:blueviolet;
+}
+
+.fa {
+    padding: 13px;
+    font-size: 40px;
+    width: 60px;
+    text-decoration: none;
+    margin: auto;
+}
