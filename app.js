@@ -29,7 +29,7 @@ function validator() {
         validateAndCalculate(billAmount.value, cashGiven.value)
     }
     else {
-        errorMessage("The bill amount and cash given should be greater than zero")
+        errorMessage("Enter all  the inputs!! ")
     }
     
 }
